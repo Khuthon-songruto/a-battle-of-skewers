@@ -1,0 +1,918 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 32379 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/djs66/Documents/GitHub/a-battle-of-skewers/a battle of skewers
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52947
+Successfully changed project path to: C:/Users/djs66/Documents/GitHub/a-battle-of-skewers/a battle of skewers
+C:/Users/djs66/Documents/GitHub/a-battle-of-skewers/a battle of skewers
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37316] Host "[IP] 192.168.102.175 [Port] 0 [Flags] 2 [Guid] 1440807191 [EditorId] 1440807191 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37316] Host "[IP] 192.168.102.175 [Port] 0 [Flags] 2 [Guid] 1440807191 [EditorId] 1440807191 [Version] 1048832 [Id] WindowsEditor(7,dojiseon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 33.04 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.49 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/djs66/Documents/GitHub/a-battle-of-skewers/a battle of skewers/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7972 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007838 seconds.
+- Loaded All Assemblies, in  0.374 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 361 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.626 seconds
+Domain Reload Profiling: 998ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (458ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 14.69 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1751ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (931ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 34.11 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 6175 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 122 unused Assets / (375.6 KB). Loaded Objects now: 6652.
+Memory consumption went from 243.1 MB to 242.8 MB.
+Total: 7.753100 ms (FindLiveObjects: 0.988400 ms CreateObjectMapping: 0.304600 ms MarkObjects: 6.070400 ms  DeleteObjects: 0.388000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95488.547534 seconds.
+  path: Assets/LowPolyFoodLite/Textures
+  artifactKey: Guid(f5d1b2ca9a3d18b499ffa78534c5aef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFoodLite/Textures using Guid(f5d1b2ca9a3d18b499ffa78534c5aef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f1e7fdfbe83ba73c9587d21868e6f2') in 0.003036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.782851 seconds.
+  path: Assets/LowPolyFoodLite/Textures/LowPolyFoodLiteTexture_01.png
+  artifactKey: Guid(eb447288676d0ef4e8428f44adebc551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFoodLite/Textures/LowPolyFoodLiteTexture_01.png using Guid(eb447288676d0ef4e8428f44adebc551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e841dadfe6f3d02cc9841e2083aa3d') in 0.061852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.199142 seconds.
+  path: Assets/LowPolyFoodLite/Models/Apple.fbx
+  artifactKey: Guid(12bf7c0de8c3b5b4bb67f4f585d5a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFoodLite/Models/Apple.fbx using Guid(12bf7c0de8c3b5b4bb67f4f585d5a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f724d891e570a53b8c2c85bd6a6c16a') in 0.507301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LowPolyFoodLite/Models/Donut_02.fbx
+  artifactKey: Guid(dfb39248011bc5c48b7bb365ac5b5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFoodLite/Models/Donut_02.fbx using Guid(dfb39248011bc5c48b7bb365ac5b5a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c604ba2c0590e3b524272838e3f6bac') in 0.028387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.100834 seconds.
+  path: Assets/LowPolyFoodLite/Materials/LP_FoodLite_BG.mat
+  artifactKey: Guid(adb2f20aa957c364e9a392a9214ef5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFoodLite/Materials/LP_FoodLite_BG.mat using Guid(adb2f20aa957c364e9a392a9214ef5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faabe0e90faaadf6988ff4191cad578') in 0.034169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.524087 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)
+  artifactKey: Guid(5276dcd8f33160b4a80651cd5f4834d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA) using Guid(5276dcd8f33160b4a80651cd5f4834d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fca514159bfe7ea176fe8db43ced0c') in 0.000695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.653365 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS
+  artifactKey: Guid(2df2d810eb187c442ad0f162eb4b7da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS using Guid(2df2d810eb187c442ad0f162eb4b7da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e14b37bb0852f29da7cc1e845cb2f6') in 0.000807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.564431 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/DEMO SCENE RAMENSHOP.unity
+  artifactKey: Guid(4abeb1c798e6c77468aa9646348a547f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/DEMO SCENE RAMENSHOP.unity using Guid(4abeb1c798e6c77468aa9646348a547f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c6c695d42765794891e84f43f9444') in 0.000814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 19.09 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <27124aa0e30a41659b903b822b959bc7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <27124aa0e30a41659b903b822b959bc7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <80a8ce1980c648dca8e68f0d8aa3b930>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.663 seconds
+Domain Reload Profiling: 2234ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (1664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (877ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (593ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 22.91 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 6003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (341.7 KB). Loaded Objects now: 6741.
+Memory consumption went from 216.7 MB to 216.4 MB.
+Total: 5.290600 ms (FindLiveObjects: 0.480100 ms CreateObjectMapping: 0.217500 ms MarkObjects: 4.403700 ms  DeleteObjects: 0.188400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 291.510774 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files
+  artifactKey: Guid(f4dab1c0a90508e49a24765904fe24a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files using Guid(f4dab1c0a90508e49a24765904fe24a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef11814d0373172d2dd65bb7b77c4b10') in 0.010135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008297 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_airconditioner.fbx
+  artifactKey: Guid(0ce68a01b1b977247b510672679143ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_airconditioner.fbx using Guid(0ce68a01b1b977247b510672679143ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700b1c200fad5f3af93816df3b5336e5') in 0.481236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_soupbowl.fbx
+  artifactKey: Guid(95e1ad5ee80d1be4190463a9aa445e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_soupbowl.fbx using Guid(95e1ad5ee80d1be4190463a9aa445e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28374d8ca5600db15226bb31d33be3a') in 0.038471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_sign_ramen_english.fbx
+  artifactKey: Guid(9a0e650e61fdb9249a43d14e72efbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_sign_ramen_english.fbx using Guid(9a0e650e61fdb9249a43d14e72efbdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21da58cd6d101b43ecdf016ca5872d10') in 0.066097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_lantern_ramen_01.fbx
+  artifactKey: Guid(34825e4ca8ee2534f8408d1f7b0a85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_lantern_ramen_01.fbx using Guid(34825e4ca8ee2534f8408d1f7b0a85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333db5760e867cf95639a6b0088aa5c0') in 0.035375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_kitchenknife_02.fbx
+  artifactKey: Guid(3cb2164246f4fee4d86e4165ed363c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_kitchenknife_02.fbx using Guid(3cb2164246f4fee4d86e4165ed363c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea1bc20a5273dd25c57483143ce0548') in 0.030310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_c_01.FBX
+  artifactKey: Guid(ef5f878c13981144498f85e942147a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_c_01.FBX using Guid(ef5f878c13981144498f85e942147a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8442a2916eb1e06268aff717301c3fd2') in 0.037874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_a_02.FBX
+  artifactKey: Guid(a5d89505a2aaf2240b963c850fcd0845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_a_02.FBX using Guid(a5d89505a2aaf2240b963c850fcd0845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4219a4367196c496cf78499dfe511d') in 0.046348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_pot_01.fbx
+  artifactKey: Guid(a660d76963eb54748a3d4c317e5846ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_pot_01.fbx using Guid(a660d76963eb54748a3d4c317e5846ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b73d30d7736e64ec5ff00982d6c70f') in 0.031426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_b_01.FBX
+  artifactKey: Guid(c7cb252078c0ac848999691326f01f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_b_01.FBX using Guid(c7cb252078c0ac848999691326f01f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284e5689511c642d0db09e427aede425') in 0.035769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_stool.fbx
+  artifactKey: Guid(29b70395775b297408437229ad6b0567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_stool.fbx using Guid(29b70395775b297408437229ad6b0567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bb55caea303b708256e2800ba344a5') in 0.031467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_curtainsign_ramen.fbx
+  artifactKey: Guid(36e18eb1c38713e4fbc85427ad1d7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_curtainsign_ramen.fbx using Guid(36e18eb1c38713e4fbc85427ad1d7e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c0d7b87920ca5831201f347ace959f') in 0.025257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_counter_ramenshop.fbx
+  artifactKey: Guid(d60ff48092201f04a9bd3578fe28f0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_counter_ramenshop.fbx using Guid(d60ff48092201f04a9bd3578fe28f0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a828e24d713edc92c01d3ecc60309cd') in 0.029393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_pipe_gas.fbx
+  artifactKey: Guid(f0f56fec45f47cd49ab2b524bd488e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_pipe_gas.fbx using Guid(f0f56fec45f47cd49ab2b524bd488e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad8af180ee3787b58e0aa34060755ab') in 0.040099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_nori.fbx
+  artifactKey: Guid(e60ef8ab2dd33a54796eadad74bdedba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_nori.fbx using Guid(e60ef8ab2dd33a54796eadad74bdedba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a14eafaea9f61054dfcd628df646423') in 0.028438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_stove_kitchen.fbx
+  artifactKey: Guid(770bc8c037c4cfc44bdb9de29b7ab6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_stove_kitchen.fbx using Guid(770bc8c037c4cfc44bdb9de29b7ab6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaada6a3029cb9d5e00919a3a0d8b182') in 0.037914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_table_kitchen_01.fbx
+  artifactKey: Guid(a2350b43ae105c740851d55a42794bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_table_kitchen_01.fbx using Guid(a2350b43ae105c740851d55a42794bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b9cb9e33540b5901449710198d030e') in 0.026264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_sign_ramen_korean.fbx
+  artifactKey: Guid(f748bcbb671277a4496d1e773de1ad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_sign_ramen_korean.fbx using Guid(f748bcbb671277a4496d1e773de1ad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd55bb309c0b9ce6ed792ff5cb62512c') in 0.039109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_kitchenset_02.fbx
+  artifactKey: Guid(573c1d27b86d381439ec30ca4806c38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_kitchenset_02.fbx using Guid(573c1d27b86d381439ec30ca4806c38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176756cefdefd1991edcbf9ba380dca1') in 0.031743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_pipe_waterdrain.fbx
+  artifactKey: Guid(bbda4bb37021c8944997c9689342fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_pipe_waterdrain.fbx using Guid(bbda4bb37021c8944997c9689342fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b9d953d04f0affa34ff2dce14e7cf') in 0.032437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_c_02.FBX
+  artifactKey: Guid(17e42a7a974f1fb4b846f0d3552d36bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_tree_c_02.FBX using Guid(17e42a7a974f1fb4b846f0d3552d36bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb769d287b27d58ab26f6ff56dbe9130') in 0.048287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_stool_01.fbx
+  artifactKey: Guid(b747f5b964afb394e8da5fea89d72ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_stool_01.fbx using Guid(b747f5b964afb394e8da5fea89d72ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e49b9fe6a42a5ee613326e35184dff') in 0.031099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_streetlamp.fbx
+  artifactKey: Guid(768b14d0cf84a9e439ee82eb968bbba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/FBX Files/SM_streetlamp.fbx using Guid(768b14d0cf84a9e439ee82eb968bbba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c380c6e19c765ab7ca506d764a361ef3') in 0.040139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.023234 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS
+  artifactKey: Guid(a046b4c275452d642a3cddb07393952d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS using Guid(a046b4c275452d642a3cddb07393952d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45722f7fdfb2e3245af740a8fbfb3eaa') in 0.001261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.541945 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/colorpalette_standard.png
+  artifactKey: Guid(5e4dd2c791af33f4f8febec9dc8cf0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/colorpalette_standard.png using Guid(5e4dd2c791af33f4f8febec9dc8cf0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e25706d8a69ee78276ae553dec89694') in 0.016380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floor_ramensho 1.mat
+  artifactKey: Guid(8bfb87a596f81004a9c64b6cb3e7d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floor_ramensho 1.mat using Guid(8bfb87a596f81004a9c64b6cb3e7d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dbae161d89653a69323ac527365ae1') in 0.017794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floor_ramensho.mat
+  artifactKey: Guid(c678c686f763ba74baf941219a7ae1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floor_ramensho.mat using Guid(c678c686f763ba74baf941219a7ae1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b5629ef93126bc9197f7f83a493252') in 0.014205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_tree_leaves 1.mat
+  artifactKey: Guid(492d2175f5202f043a15fb935d8fc124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_tree_leaves 1.mat using Guid(492d2175f5202f043a15fb935d8fc124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcffaed79bfe37ba40cc9ecbe7687b2') in 0.015339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_colorpalette_standard.mat
+  artifactKey: Guid(17cf55f4eb04ad742a9d43796ef4dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_colorpalette_standard.mat using Guid(17cf55f4eb04ad742a9d43796ef4dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c03d36f2e6a384eb6e4a6106bf8d73') in 0.013278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floortiles_japan.mat
+  artifactKey: Guid(42e8513b2719c8f43a10c2c294a18db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floortiles_japan.mat using Guid(42e8513b2719c8f43a10c2c294a18db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a15240302821a91ab906238af4c1f57') in 0.013923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_dirt.mat
+  artifactKey: Guid(54081f5f35255594ab7ce01bb7924dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_dirt.mat using Guid(54081f5f35255594ab7ce01bb7924dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50daa2444ef72844c0c164263519c0ae') in 0.009306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_light_emissive.mat
+  artifactKey: Guid(4dd5df877028ff74caa037c0cec72808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_light_emissive.mat using Guid(4dd5df877028ff74caa037c0cec72808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37d7b6b43913bed1309097322e771fc') in 0.012435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/SM_lanterns_japanese_M_lantern_japanese_Emission.png
+  artifactKey: Guid(9d89072b17adbfd4583c4a37d27d1320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/SM_lanterns_japanese_M_lantern_japanese_Emission.png using Guid(9d89072b17adbfd4583c4a37d27d1320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e862bb55e8013fe9bc24bc2d0acaa5') in 0.017506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floorbricks_diff.png
+  artifactKey: Guid(9b6f6a55204b42b4293cb81f4f0bd0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_floorbricks_diff.png using Guid(9b6f6a55204b42b4293cb81f4f0bd0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769f51e721a0da23bb8e08576761cbc0') in 0.014811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_grey.mat
+  artifactKey: Guid(909ca81f9989b1f4ea845af47c148349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/MATERIALS/M_grey.mat using Guid(909ca81f9989b1f4ea845af47c148349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089ad00209049dfc8ac93462197841f4') in 0.013313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.165840 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_airconditioner.prefab
+  artifactKey: Guid(1a50418184986954dbefd10ae977836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_airconditioner.prefab using Guid(1a50418184986954dbefd10ae977836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d6744d329f357d67c340e5d0174085') in 0.011435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pot_02.prefab
+  artifactKey: Guid(28db873200e187f4096cdf9ffe928b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pot_02.prefab using Guid(28db873200e187f4096cdf9ffe928b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e047a06417894582211d456b33354c') in 0.013114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_kitchenset_01.prefab
+  artifactKey: Guid(d32114bb30fc2f74aa0c373d6ad72ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_kitchenset_01.prefab using Guid(d32114bb30fc2f74aa0c373d6ad72ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25668c2bf7f2c2b5c6d5db1c45e984f') in 0.016570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_table_kitchen_01.prefab
+  artifactKey: Guid(28d132c797789aa4790a1497bd05deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_table_kitchen_01.prefab using Guid(28d132c797789aa4790a1497bd05deb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8e9531d715606f4fbce988d7e094cb') in 0.014927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pipe_waterdrain.prefab
+  artifactKey: Guid(0fa75a53980c747438ffec81a88c325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pipe_waterdrain.prefab using Guid(0fa75a53980c747438ffec81a88c325e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e89d8e279503f3691ec603f465e7f69') in 0.019458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_sign_ramen_english.prefab
+  artifactKey: Guid(74853881d803ed946a308bc1d0ca6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_sign_ramen_english.prefab using Guid(74853881d803ed946a308bc1d0ca6481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109ab253b53bd302ae28b508637a440f') in 0.019627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pot_01.prefab
+  artifactKey: Guid(9ffb55131bbf1fc45866025a1d340e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pot_01.prefab using Guid(9ffb55131bbf1fc45866025a1d340e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a316dd239fed50962cf8b6d6f13177') in 0.018026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_sign_ramen_korean.prefab
+  artifactKey: Guid(15e8b3d1cd938a340b540ed0cebed42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_sign_ramen_korean.prefab using Guid(15e8b3d1cd938a340b540ed0cebed42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70dbe49e1667b58a324a78343cd6559') in 0.021054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_meatslice.prefab
+  artifactKey: Guid(8865fecb960585a4e941df64c1ee8d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_meatslice.prefab using Guid(8865fecb960585a4e941df64c1ee8d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc6038a6d91762170628058f3315514') in 0.021193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_bowl_ramennoodles.prefab
+  artifactKey: Guid(1840b8531aebffe4081f02185e2713bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_bowl_ramennoodles.prefab using Guid(1840b8531aebffe4081f02185e2713bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a67f573b5a770e26f1b51b74498ad0e') in 0.017419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_soupbowl.prefab
+  artifactKey: Guid(d017ff1efd26fd944ab32a3db3fdbec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_soupbowl.prefab using Guid(d017ff1efd26fd944ab32a3db3fdbec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363f129accb6ad19d0590ef16095affb') in 0.016648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_kitchenknife_02.prefab
+  artifactKey: Guid(be5bd118aca4f8340a4a3ed10760f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_kitchenknife_02.prefab using Guid(be5bd118aca4f8340a4a3ed10760f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6b327fe7fb286d3fe83f0d5902a535') in 0.014441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pipe_gas.prefab
+  artifactKey: Guid(2c062fb1fd9f97f4b85774c1836396a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_pipe_gas.prefab using Guid(2c062fb1fd9f97f4b85774c1836396a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ab7235c00db747720034fd2be159b0') in 0.019574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_streetlamp.prefab
+  artifactKey: Guid(ce56ad2385e906440921edfbc51a937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_streetlamp.prefab using Guid(ce56ad2385e906440921edfbc51a937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ef05457a65d527aefb8dd107f29171') in 0.022485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_foldingboard_ramen.prefab
+  artifactKey: Guid(0c072d8c2e15ff2459990d1a34e0b2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_foldingboard_ramen.prefab using Guid(0c072d8c2e15ff2459990d1a34e0b2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a2635e0504c775a3a32de42c07f597') in 0.031949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_ramenshop_base.prefab
+  artifactKey: Guid(3c5de581716d1e9448dee87c5b8b3196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_ramenshop_base.prefab using Guid(3c5de581716d1e9448dee87c5b8b3196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff7f2f0d528950ad13d6b47458d27cd') in 0.025612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.115662 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_tree_a_01.prefab
+  artifactKey: Guid(b10f9f6d54bff164e98b4e45f7aa6b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_tree_a_01.prefab using Guid(b10f9f6d54bff164e98b4e45f7aa6b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0739046b6ee6c453af6613f54736869') in 0.020112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_ventilation.prefab
+  artifactKey: Guid(b7c07729799b7b14a8cc570e6a8d878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/PREFABS/SM_ventilation.prefab using Guid(b7c07729799b7b14a8cc570e6a8d878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4129ffe827c4ae65d529de5a1423841a') in 0.023654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 11.261653 seconds.
+  path: Assets/FoodPack/Meshes/Kitchen Utensils/stainlessSteelSkilletShallow.fbx
+  artifactKey: Guid(cc4dd3d35486ca148bc3bfc400f97e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Meshes/Kitchen Utensils/stainlessSteelSkilletShallow.fbx using Guid(cc4dd3d35486ca148bc3bfc400f97e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8eb13fb5a4c23466491d42fc179d36') in 0.039508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 110.409493 seconds.
+  path: Assets/Ramenshop -  Low Poly (HA)/SHOWCASE SCENE.unity
+  artifactKey: Guid(2540663211cb0eb46aaa89fb3e3381c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ramenshop -  Low Poly (HA)/SHOWCASE SCENE.unity using Guid(2540663211cb0eb46aaa89fb3e3381c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cceb432d2d73ad524563e656131dd0') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 467.715373 seconds.
+  path: Assets/FoodPack/Prefabs/Kitchen Utensils
+  artifactKey: Guid(b27942fb262cd684e90b6e26fd964d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Kitchen Utensils using Guid(b27942fb262cd684e90b6e26fd964d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445c78757a77f60394cea7865ead1f89') in 0.001198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 228.925642 seconds.
+  path: Assets/FoodPack/Prefabs/Egg
+  artifactKey: Guid(9b7dd55b922eeb34c947b92130df2f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg using Guid(9b7dd55b922eeb34c947b92130df2f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d03af7dc38dee894a48404cb6816e6') in 0.001265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.769036 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/boiledEgg.prefab
+  artifactKey: Guid(ef8e8641351f787419aaa46fe3b9b760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/boiledEgg.prefab using Guid(ef8e8641351f787419aaa46fe3b9b760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce51d07e4e67ce322a9580e4977d64c5') in 0.020946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/eggShell01.prefab
+  artifactKey: Guid(351258790672dc141ba65a833b50d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/eggShell01.prefab using Guid(351258790672dc141ba65a833b50d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a151f8d005f74ed55316e7e5b54afe28') in 0.015648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.002937 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/eggShell02.prefab
+  artifactKey: Guid(064144da992119647948c9823c26a617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/eggShell02.prefab using Guid(064144da992119647948c9823c26a617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1396f10b96bfee9a1be4b785cb4ba1f7') in 0.036766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/friedEgg02.prefab
+  artifactKey: Guid(3a0cb5ebcc227584e9bb4a601d8ac63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/friedEgg02.prefab using Guid(3a0cb5ebcc227584e9bb4a601d8ac63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1248d9c98a068e50708ea3f035855256') in 0.031787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/softboiledEgg.prefab
+  artifactKey: Guid(b89d771410dd21243bbf871a0917c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/softboiledEgg.prefab using Guid(b89d771410dd21243bbf871a0917c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8d9cdfea40cbecbf27decd75061e3f') in 0.025625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/eggYolkHalf.prefab
+  artifactKey: Guid(325016acfb702b94e9fd7fc579680e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/eggYolkHalf.prefab using Guid(325016acfb702b94e9fd7fc579680e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12cc087e2f086a865d651c3d35662ac') in 0.027619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/softboiledEggWithBase.prefab
+  artifactKey: Guid(aab804548dfa40c4e84d06b5f4e4277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/softboiledEggWithBase.prefab using Guid(aab804548dfa40c4e84d06b5f4e4277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96eb76a2809d170d38006cac3692a6a9') in 0.025472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FoodPack/Prefabs/Egg/boiledEggShell.prefab
+  artifactKey: Guid(e320cdbf8f53eea4abd1a33fd0765fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Egg/boiledEggShell.prefab using Guid(e320cdbf8f53eea4abd1a33fd0765fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6eebe6e5295ff13a84970e1fa7e8075') in 0.020610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.523337 seconds.
+  path: Assets/FoodPack/Prefabs/Chicken
+  artifactKey: Guid(93b61d395877ab24d9dd26291b1b7e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Chicken using Guid(93b61d395877ab24d9dd26291b1b7e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12db2194393b0ec1d9653c7cd184bda0') in 0.001427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052297 seconds.
+  path: Assets/FoodPack/Prefabs/Chicken/Chicken Variant.prefab
+  artifactKey: Guid(be9b283f461c3dc42a99eadaf3004711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Chicken/Chicken Variant.prefab using Guid(be9b283f461c3dc42a99eadaf3004711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37cca38845489d586143163a9fb21d1') in 0.018278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FoodPack/Prefabs/Chicken/wing02.prefab
+  artifactKey: Guid(60f1f7fdab27a4144ad2af3b194b895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Chicken/wing02.prefab using Guid(60f1f7fdab27a4144ad2af3b194b895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dc3d91cfb2aa814d5c6ccd86d1983c') in 0.013308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FoodPack/Prefabs/Chicken/wing01.prefab
+  artifactKey: Guid(be05b1588d1a47c408aaaa9405bbf023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPack/Prefabs/Chicken/wing01.prefab using Guid(be05b1588d1a47c408aaaa9405bbf023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b537a92c532b5e28bf76a9f3d9c9e2') in 0.019744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
